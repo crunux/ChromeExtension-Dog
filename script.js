@@ -1,23 +1,7 @@
 
+// Developer by Cross-Dev  23/07/22
 const nextBtn = document.querySelector('.btn');
 const imagen = document.querySelector('.dogs')
-
-// const Dogs = () => {
-//     setHeader = {
-//         headers: {
-//             ['x-api-key']: "94bb2dad-28c8-4231-8a25-da93580a3eb8"
-//         }
-//     };
-
-//     fetch('https://api.thedogapi.com/v1/images/search', setHeader)
-//         .then((res) => res.json().then(data => {
-//             const imagen = document.querySelector('.dogs').setAttribute('src', data.url)
-//             fragment.appendChild(imagen)
-//             app.appendChild(fragment)
-//             console.log(data)
-//         }))
-//         .catch((error) => console.log(error));
-// };
 
 const API_URL = "https://api.thedogapi.com/v1/images/search";
 
