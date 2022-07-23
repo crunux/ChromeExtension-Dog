@@ -1,0 +1,16 @@
+{
+    "name": "Dog Fun",
+    "version": "0.1.1",
+    "author": "CrossDev",
+    "description": "Dog for Fun",
+    "manifest_version": 3,
+    "action":{
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+
+    },
+    "icons": {
+        "128" : "icon.png"
+    },
+    "permissions": ["activeTab"]
+}

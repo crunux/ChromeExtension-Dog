@@ -1,0 +1,38 @@
+html{
+    background-color:rgb(255, 255, 255)
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    /* font-family: 'Mochiy Pop One', sans-serif; */
+    font-family: 'Lobster', cursive;
+}
+
+.dogs{
+    display: flex;
+    width: 400px;
+    height: 350px;
+}
+
+.btn{
+    color: black;
+    background-color: rgb(10, 168, 189);
+    margin: 25px 0;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.4);
+}
+
+.btn:hover{
+    background-color: gray;
+    color: black;
+}
