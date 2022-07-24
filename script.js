@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const fetchdogs = async () => {
     setHeader = {
         headers: {
-            ['x-api-key']: "94bb2dad-28c8-4231-8a25-da93580a3eb8"
+            ['x-api-key']: "API_KEY"
         }
     };
     try {
